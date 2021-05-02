@@ -1,6 +1,6 @@
 # React Template
 
-**Use this template to get up and running quickly on projects.**
+https://ben-jarrett-react-lyric-api.netlify.app/
 
 This is just like the webpack template. Use it, create the repo, connect it to your local and `npm i`.
 
