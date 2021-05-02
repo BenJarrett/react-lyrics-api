@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import getLyrics from '../helpers/data/lyricData';
 import './App.scss';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   const handleClick = (e) => {
     console.warn(`You clicked ${e.target.id}`);
     setDomWriting(`You clicked ${e.target.id}! Check the Console!`);
+    console.warn(getLyrics);
   };
 
   return (
