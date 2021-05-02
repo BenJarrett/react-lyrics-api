@@ -32,30 +32,30 @@ const Song = () => {
       value={artist}
       onChange={(e) => setArtist(e.target.value)}
           />
-        </FormGroup>
-        <FormGroup>
-          <Label for="songTitle">Song title:</Label>
-          <Input
-            type="text"
-            name="songTitle"
-            id="songTitle"
-            placeholder="Colors"
-            required
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-          />
-        </FormGroup>
-        <Button>Submit</Button>
-      </Form>
+    </FormGroup>
+    <FormGroup>
+      <Label for="songTitle">Song title:</Label>
+        <Input
+        type="text"
+        name="songTitle"
+        id="songTitle"
+        placeholder="Colors"
+        required
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        />
+    </FormGroup>
+    <Button>Submit</Button>
+    </Form>
     </div>
     <div className="songContainer">
-        {data
-          ? <div className="results">
-            <h1>{title.toUpperCase()}</h1>
-            <h2>BY: {artist.toUpperCase()}</h2>
-              <h6>{data.lyrics}</h6>
-            </div>
-          : null}
+    {data
+      ? <div className="results">
+      <h1>{title.toUpperCase()}</h1>
+      <h2>BY: {artist.toUpperCase()}</h2>
+      <h6>{data.lyrics}</h6>
+      </div>
+      : null}
       </div>
     </>
   );
