@@ -1,7 +1,25 @@
-# React Template
+## Overview
+I built this app with simplicity in mind. Since completely this app, I have gotten more familiar with React which has upped my styling comprehension while using it. 
+That being said, I wanted this to be what it is. A simple Lyric generator for your favorite lyrics being called from an API that has plenty of popular songs. 
 
-https://ben-jarrett-react-lyric-api.netlify.app/
+In the futurte, I would like to add some more clean, elegent styling that doesn't take away from my original goal. 
+This was a great place to start using APIs within React. 
 
-This is just like the webpack template. Use it, create the repo, connect it to your local and `npm i`.
+## React App
+https://ben-jarrett-react-lyrics-api.netlify.app/
 
-- [Steps to deploy](https://github.com/nss-nightclass-projects/REACT-Deployment-Netlify)
+## Github Repo
+https://github.com/BenJarrett/react-lyrics-api
+
+### Technologies:
+- react
+- html
+- sass
+- postman to test api
+- deployed via netlify
+
+## Contributors
+https://github.com/BenJarrett
+
+## Loom Video
+- Coming Soon!
