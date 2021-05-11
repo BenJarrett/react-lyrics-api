@@ -1,4 +1,6 @@
 ## Overview
+![React Lyrics Banner](https://user-images.githubusercontent.com/76926244/117826336-b2efc180-b235-11eb-9cbe-de2687b4603f.png)
+
 I built this app with simplicity in mind. Since I have completed this app, I have gotten more familiar with React which has upped my styling comprehension while using it. 
 That being said, I wanted this to be what it is. A simple Lyric generator for your favorite lyrics being called from an API that has plenty of popular songs. 
 
